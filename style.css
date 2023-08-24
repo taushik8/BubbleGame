@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(122, 232, 133);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#pannel{
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#ptop{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(30, 126, 81);
+    color: white;
+    padding: 0px 30%;
+    justify-content: space-between;
+
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.box{
+    padding: 10px;
+    background-color: white;
+    font-weight: 25px;
+    border-radius: 5px;
+    color: black;
+}
+
+#pbtm{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    height: calc(100%-100px);
+    padding: 20px;
+}
+
+.bubble
+{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(30, 126, 81);
+    color:white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100px;
+    font-size: 25px;
+}
+
+.bubble:hover{
+    background-color: rgb(23, 93, 60);
+    cursor: pointer;
+}
+
+.end-game{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top:200px ;
+   padding-left: 450px;
+   width: 100%;
+   height: 100%;
+}
+
+
+.end-score
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 100px;
+}
+
+
+.btn-container
+{
+    margin-top: 30px;
+   
+}
+
+.end-btn
+{
+  
+    width: 110px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.end-btn:hover{
+    cursor: pointer;
+}
